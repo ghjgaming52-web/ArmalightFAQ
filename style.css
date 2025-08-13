@@ -1,0 +1,38 @@
+/* blank styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+
+  /* Full-page background image */
+  background-image: url("images/youreimagehere.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 2rem;
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+section {
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 8px;
+  width: 80%;
+}
+
+footer {
+  padding: 1rem;
+  background-color: rgba(41, 7, 67, 0.6);
+  margin-top: 2rem;
+}
